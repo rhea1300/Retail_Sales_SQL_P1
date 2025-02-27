@@ -124,8 +124,7 @@ SELECT
     gender,
     COUNT(*)
 FROM retail_sales
-GROUP 
-    BY 
+GROUP BY 
     category,
     gender
 ORDER BY 1
